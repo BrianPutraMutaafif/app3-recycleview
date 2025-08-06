@@ -36,11 +36,18 @@ menjadikannya fleksibel dan efisien untuk daftar panjang.
 <https://github.com/BrianPutraMutaafif/app3-recycleview>
 Di dalam sana terdapat kode-kode yang akan menampilkan 10 daftar siswa secara vertikal menggunakan Recycle View.
 - Setiap data diri siswa dapat di lihat secara detail, dengan di tambahkan nya button 'lihat detail'
+  <img width="548" height="275" alt="image" src="https://github.com/user-attachments/assets/5d920645-135a-406c-8638-e83013aa29b7" />
+
 - Setiap data diri memiliki tombol 'hapus'  yang mana setiap data diri yang di pilih bisa di hapus.
+  <img width="536" height="262" alt="image" src="https://github.com/user-attachments/assets/5e7b3e59-2795-4123-8377-893ac8c665c9" />
+
 -  Di tambah kan juga beberapa list sebagai penanda siswa tersebut [ Nisn, Kelas, Nama]
   File layout:
 activity_main.xml → berisi RecyclerView
 item_siswa.xml → berisi TextView dan Button (lihat & hapus)
 Kode di MainActivity.java → mengatur data siswa dan menghubungkan Adapter
 Kode di SiswaAdapter.java → mengatur isi setiap item list
+
+<img width="556" height="292" alt="image" src="https://github.com/user-attachments/assets/b2c4a75e-dac4-4bc6-812b-0605af8c9061" />
+
 
