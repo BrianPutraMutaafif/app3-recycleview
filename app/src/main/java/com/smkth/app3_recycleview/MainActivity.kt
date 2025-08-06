@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity() {
         }
         recyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
-//        recyclerView.adapter = StudentAdapter(this, DummyData.getStudentList())
-        val adapter = StudentAdapter(this, DummyData.getStudentList().toMutableList())
+//      recyclerView.adapter = StudentAdapter(this, DummyData.getStudentList())
+        recyclerView.adapter = StudentAdapter(this, DummyData.getStudentList().toMutableList())
 
     }
 }
